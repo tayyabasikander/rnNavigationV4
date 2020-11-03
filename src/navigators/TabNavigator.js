@@ -1,6 +1,9 @@
 import React from 'react';
 import { Image, View, Dimensions, Alert, TouchableOpacity, TouchableHighlight, Text } from 'react-native';
 import { Icon, Input } from 'native-base';
+
+// import Icon from 'react-native-vector-icons/Ionicons'
+// import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
 import {
     createStackNavigator,
     // createBottomTabNavigator,
@@ -9,7 +12,7 @@ import {
     // createSwitchNavigator
 } from "react-navigation-stack";
 import {createBottomTabNavigator} from 'react-navigation-tabs'
-
+// Icon.loadFont();
 
 import Tab1 from '../tab/Tab1';
 import Tab2 from '../tab/Tab2';
